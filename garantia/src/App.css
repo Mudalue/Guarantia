@@ -1,0 +1,113 @@
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  background-color: #fdd20eff;
+}
+/* navbar */
+.navbar a, .page-footer h5 {
+  font-size: 35px;
+  font-weight: 800;
+}
+.navbar-nav .nav-item .nav-link:active {
+  color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 18px;
+  font-weight: 500;
+}
+.Home {
+  padding: 20px 60px;
+}
+.card-title {
+  font-weight: 700;
+}
+label,
+select {
+  font-weight: 600;
+  font-size: 14px;
+}
+.Home button,
+.homecontent button,
+.header h1 {
+  font-weight: 700;
+}
+.homecontent {
+  padding: 200px 100px;
+}
+.homecontent h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 800;
+}
+.homecontent p, .header p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+}
+.form-select {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+/* <about> */
+.about {
+  padding-bottom: 20px;
+}
+.header {
+  padding: 200px 40px;
+  color: #fff;
+}
+.about-content .container{
+padding: 100px 0 50px 0;
+}
+.about-content h4{
+  font-weight: 700;
+}
+.about-content p{
+  font-weight: 500;
+}
+.about-body{
+ padding: 70px;
+}
+.about-what{
+  padding: 30px 50px;
+}
+.steps .card{
+  height: 500px;
+  width: 400px!important;
+}
+.securitytext {
+  padding: 100px 30px;
+}
+.contacttext{
+  padding: 100px 30px;
+}
+/* login */
+.login{
+  margin: 10px
+}
+.login .card{
+  padding: 100px;
+}
+.login .card h4{
+  font-weight: 700;
+  font-size: 18px;
+}
+.login .card p{
+  font-weight: 700;
+  font-size: 14px;
+}
+/* footer */
+.page-footer p{
+  font-weight: 600;
+  font-size: 15px;
+}
+.page-footer ul li  a{
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-copyright{
+  font-weight: 600;
+  font-size: 13px;
+}
