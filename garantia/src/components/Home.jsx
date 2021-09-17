@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./other/Navbar";
-
-
+import { ArrowRight } from "react-feather";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -14,82 +14,80 @@ const Home = () => {
                 <div className="card-body">
                   <h4 className="card-title text-center">Registration</h4>
                   <div className="card-text">
-                    <form>
+                    <div className="alert alert-secondary text-center mt-4 mb-4">
+                      Create a free account to generate a link and <strong>start selling today</strong>.
+                    </div>
+                    <form className="custom-form">
                       <div className="row">
-                        <div className="col-md-12 pt-2">
-                          <label>Full name</label>
-                          <input className=" form-control" />
+                        <div className="col-md-6">
+                          <label>First Name</label>
+                          <input className=" form-control form-control-lg" placeholder="Enter Your First Name" />
+                        </div>
+                        <div className="col-md-6">
+                          <label>Last Name</label>
+                          <input className="form-control form-control-lg" placeholder="Enter Last Name" />
                         </div>
                       </div>
-                      <div className="row">
-                        <div className="col-md-12 pt-2">
+                      <div className="row pt-3">
+                        <div className="col-md-6">
                           <label>Email</label>
-                          <input className=" form-control" />
+                          <input className=" form-control form-control-lg" placeholder="Your Valid Email Add." />
+                        </div>
+
+                        <div className="col-md-6">
+                          <label>Phone No.</label>
+                          <input className=" form-control form-control-lg" placeholder="Your Active Phone Num." />
+                        </div>
+                      </div>
+                      <div className="row pt-3">
+                        <div className="col-md-6">
+                          <label>Password</label>
+                          <input className=" form-control form-control-lg" placeholder="Your Password" />
+                        </div>
+                        <div className="col-md-6">
+                          <label>Repeat Password</label>
+                          <input className=" form-control form-control-lg" placeholder="Repeat Password" />
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col-md-12 pt-2">
-                          <label>Address</label>
-                          <input className=" form-control" />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-12 pt-2">
+                        <div className="col-md-12 pt-3">
                           <label>Business Name</label>
-                          <input className=" form-control" />
+                          <input className=" form-control form-control-lg" placeholder="Perhaps, a name that matches your online business!" />
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col-md-12 pt-2">
-                          <label>Social Media Platform</label>
-                          <select
-                            class="form-select"
-                            aria-label="Default select example"
-                          >
-                            <option selected>select social media</option>
-                            <option value="1">Instagram</option>
-                            <option value="2">Whatsapp</option>
-                            <option value="3">Facebook</option>
-                            <option value="4">Telegram</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-12 pt-2">
-                          <label>Amount</label>
-                          <input className="form-control" />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-12 pt-2">
-                          <label>Customers Email</label>
-                          <input className="form-control" />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-12 pt-2">
+                        <div className="col-md-12 pt-3">
                           <div>
                             <button
-                              className="btn btn-md btn-warning py-2 text-light"
-                              style={{ width: "100%" }}
+                              className="btn btn-lg btn-warning mt-2"
+                              style={{ width: "100%", height: 100 }}
                             >
-                              Register
+                              CREATE ACCOUNT <ArrowRight size={14} />
                             </button>
                           </div>
                         </div>
                       </div>
+                      <h5 className="text-center pt-2">Already Own An Account? <Link to="/Login">Login</Link></h5>
                     </form>
+
+                    {/* form2 here */}
+                    <form action="">
+
+                    </form>
+                    {/* /form2 ends here */}
+
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-7 ">
               <div className="homecontent text-center lh-lg animate__animated animate__bounce animate__repeat-2">
-                <h1>garantia</h1>
-                <p>your trusted online eskrow service</p>
+                <h1 className="text-dark">garantia.</h1>
+                <hr />
+                <p className="text-dark" style={{ fontSize: 26 }}>Your trusted online escrow service.</p>
                 <div>
                   <button className="btn btn-light btn-lg fw-bold px-3">
-                    Learn more
+                    Learn More
                   </button>
                 </div>
               </div>

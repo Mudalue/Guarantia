@@ -111,3 +111,8 @@ padding: 100px 0 50px 0;
   font-weight: 600;
   font-size: 13px;
 }
+
+
+.custom-form input{
+  font-size: 13px;
+}
