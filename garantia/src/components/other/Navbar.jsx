@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav class="navbar sticky-top navbar-expand-lg navbar-light bgk-warning px-4 py-2 ">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">
+          <a class="navbar-brand text-dark" href="#">
             garantia
           </a>
           <button
@@ -22,18 +22,23 @@ const Navbar = () => {
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="/Login">
+                <a class="nav-link active text-dark" aria-current="page" href="/Login">
                   Login
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/About">
+                <a class="nav-link text-dark" href="#">
+                  Developers
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/About">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                 Contact
+                <a class="nav-link text-dark" href="#">
+                  Contact Us
                 </a>
               </li>
             </ul>

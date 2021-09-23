@@ -128,47 +128,8 @@ padding: 100px 0 50px 0;
   font-weight: 600;
   font-size: 13px;
 }
-/* sidebar */
-.offcanvas-body{
-  margin-top: 60px;
-  padding: 0!important;
-}
-.offcanvas-body ul{
-  list-style-type: none!important;
-}
-.offcanvas-body ul li{
-  padding: 15px ;
-}
-.offcanvas-body ul li a{
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600; 
-  color: #fff;
-}
-.card p{
-  font-weight: 500;
-  font-size: 16px;
-}
-.forteen{
-  font-weight: 500;
-  font-size: 14px;
-}
-.card-height{
-  height: 160px!important;
-}
-.card table  span{
-  font-size: 12px;
-}
-.customer .card{
-  padding: 70px  50px 100px 50px; 
-}
-.cmargin{
-  margin: 40px;
-}
-.card1{
-  padding: 20px;
-}
 
-.productpage{
-  padding: 50px;
+
+.custom-form input{
+  font-size: 13px;
 }

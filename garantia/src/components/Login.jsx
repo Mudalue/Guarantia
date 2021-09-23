@@ -24,30 +24,29 @@ const Login = () => {
                       <div className="col-md-6 lh-lg">
 
                         <div className="p-5">
-                            <div className="text-center  py-3">
-                                <h4>
-                                 Welcome back, Login
-                                </h4>
-                            </div>
+                          <div className="text-center  py-3">
+                            <h4>
+                              Welcome back, Login
+                            </h4>
+                          </div>
                           <form
-                            action="
-                                               "
-                           className="px-4">
+                            action=""
+                            className="px-4 custom-form">
                             <div className="row">
                               <div className="col-md-12">
-                                <label>Username</label>
-                                <input className="form-control" />
+                                <label>Email Address *</label>
+                                <input className="form-control form-control-lg mb-2" placeholder="Your Email" />
                               </div>
                             </div>
                             <div className="row">
                               <div className="col-md-12">
                                 <label>Password</label>
-                                <input className="form-control" />
+                                <input className="form-control form-control-lg" placeholder="Password" />
                                 <p className="text-end">forgot password?</p>
                               </div>
                             </div>
                             <div className="text-center">
-                            <p>Dont have an account? Sign in</p>
+                              <p>Dont have an account? Sign in</p>
                             </div>
                             <div className="row">
                               <div className="col-md-12">
