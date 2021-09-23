@@ -4,17 +4,22 @@ import { Switch, Route } from "react-router-dom"
 import Home from './components/Home';
 import About from './components/About';
 import Login from './components/Login';
+import Userdashboard from './components/Dashboardcomponent/Userdashboard';
+import Sidebar from './components/other/Sidebar';
+import { useState } from 'react';
 function App() {
+  const [color, setColor] = useState("bgk-warning");
   return (
-    <div className="App">
+    <div className= {`App ${color}`}>
       <Switch>
-        <Route exact path="/Login">
+        <Route path="/Userdashboard"> <Sidebar/></Route>
+        <Route  path="/Login">
           <Login />
         </Route>
-        <Route exact path="/About">
+        <Route  path="/About">
           <About />
         </Route>
-        <Route exact path="/">
+        <Route path="/">
           <Home />
         </Route>
       </Switch>

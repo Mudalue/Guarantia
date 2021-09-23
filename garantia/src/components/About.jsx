@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <section className="about">
+      <section className="about bgk-warning">
         <div className="container">
           <div className="row">
             <div className="col-md-8">

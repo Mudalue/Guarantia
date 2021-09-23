@@ -10,7 +10,7 @@ const Home = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-5">
-              <div className="card py-3 px-4  animate__animated animate__pulse animate__repeat-5">
+              <div className="card py-3 px-4  animate__animated animate__pulse animate__repeat-5 ">
                 <div className="card-body">
                   <h4 className="card-title text-center">Registration</h4>
                   <div className="card-text">

@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent px-4 py-2 ">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bgk-warning px-4 py-2 ">
         <div class="container-fluid">
           <a class="navbar-brand text-light" href="#">
             garantia

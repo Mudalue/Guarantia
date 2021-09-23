@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <div>
       <Navbar />
-      <section className="login">
+      <section className="login bgk-warning">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
